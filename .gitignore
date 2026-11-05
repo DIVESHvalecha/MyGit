@@ -1,0 +1,31 @@
+# Build output
+target/
+dependency-reduced-pom.xml
+*.class
+
+# IDE and OS files
+.idea/
+.DS_Store
+*.iml
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Local/private documents (not for the public repo)
+/Valecha, Divesh.pdf
+/git doc.docx
+/git revision.pdf
+/mygit-revision-guide.pdf
+/my-git.md
+/deps.txt
